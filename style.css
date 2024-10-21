@@ -1,9 +1,18 @@
+body {background-color: lightsalmon;
+ 
+
+}
+
 h1 {
     color: maroon;
     text-decoration: underline;
+    text-align: center;
+    text-decoration: wavy;
+    text-decoration-color: whitesmoke;
 }
 h2 {
-    color: darkseagreen;
+    color: forestgreen;
+    text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
     
 }
