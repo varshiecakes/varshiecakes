@@ -1,0 +1,67 @@
+.welcome{
+    background-color: forestgreen;
+    color:whitesmoke;
+    font-size: 16px;
+    text-align: center;
+  }
+  .feature{
+    background-color: beige;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .animal{
+    height: 200px;
+    width: 258px;
+    background-color: lightgray;
+    border-color: darkgreen;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+  }
+  .animal{
+    height: 300px;
+    width:258px;
+    background-color: lightgray;
+    border-color:darkgreen;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .animal >img{
+    width: 90%;
+  }
+  
+  }
+  .animal >p{
+    padding-top:6px;
+    margin-top;0px;
+   margin-bottom: 5px;
+    
+  }
+  .end{
+    background-color: forestgreen;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  img {
+    width: auto;
+    height: 200px;
+    border: 2px solid #003E1F;
+  
