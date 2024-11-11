@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project4.css">
     <title>GamePlay</title>
-</head>
-<body>
-    <h2 class="start">Thomas Edison</h2>
-    <h2 class="start">Varsha Persaud</h2>
-    <h2 class="start">November 2024 </h2>
-    <h2 class="start">Ghost Schools Project 4</h2>
-    <h2 class="start">Web Design</h2>
+  </head>
+  <body>
+    <div class="start">
+    <h2>Thomas Edison</h2>
+    <h2>Varsha Persaud</h2>
+    <h2>November 2024 </h2>
+    <h2 >Ghost Schools Project 4</h2>
+    <h2>Web Design</h2>
+    <img id="pfp" src="pfp.png">
+    </div>
+  <div class="container">
+    <ol class="intro">
+      <div class="waveinstruct" id="instructions"> 
+        <h3 class="instructionstitle">Instructions</h3>
+
+        <p> Use your mouse to hover over the images. </p>
+        <p> Another image will pop up. </p>
+        <p>Spot the difference between these photos!</p>
+        <p> There are three levels, easy, medium and hard. </p>
+      </div>
+      <div class="waveeasy" id="easylevel"> 
+        <h3> Easy </h3>
+        <p>You have 10 seconds to view the images. Remove your mouse from the image once the time is up.</p>
+        <div class="easyimages">
+          <img class="easyimages" src="easybefore.png"
+               onmouseover="this.src='easyafter.png';"
+               onmouseout="this.src='easybefore.png';" width="900">
+        </div>
+      </div>
+      <div class="wavemedium" id="mediumlevel"> 
+        <h3> Medium </h3>
+        <p> You have 5 seconds to view the images. Remove your mouse from the image once the time is up.</p>
+        <img class="mediumimages" src="mediumbefore.png" 
+             onmouseover="this.src='mediumafter.png';"
+             onmouseout="this.src='mediumbefore.png';" width="900">
+      </div>
+      <div class="wavehard" id="hardlevel"> 
+        <h3>Hard</h3>
+        <p> You have 3 seconds to view the images. Remove your mouse from the image once the time is up. </p>
+        <img class="hardimages" src="hardbefore.png" 
+             onmouseover="this.src='hardafter.png';"
+             onmouseout="this.src='hardbefore.png';" width="900">
+      </div>
+
+      </body>
+    </html>
     
-</body>
+
+  </body>
 </html>

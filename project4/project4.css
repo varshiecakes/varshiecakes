@@ -1,0 +1,158 @@
+body {
+    background-image: url(backround.png)
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  .start{
+    text-align: left;
+    color: darkblue;
+    border-style: ridge; border-color: cornflowerblue;
+  } 
+  
+  #pfp{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 6%;
+    top: 2%;
+  }
+  .intro{
+   
+  }
+  .introtogametext {
+    font-size: 40px;
+    text-align: center;
+  }
+  .pixelart {
+    width: 150px;
+  
+  }
+  #instructions {
+    text-align: center;
+    color: whitesmoke;
+  }
+  .waveinstruct {
+    border: 1px solid #192A51;
+  
+    background-color: cornflowerblue;
+  
+    color: whitesmoke;
+  
+    text-align: center;
+  
+    font-size: 0.9em;
+  
+    height: 50px;
+  
+    overflow: hidden;
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    transition: height 0.5s ease;
+  }
+  .waveinstruct:hover {
+    height: 230px;
+  }
+  .instructionstitle {
+    text-align: center;
+  }
+  #easylevel {
+    text-align: center;
+  }
+  .waveeasy {
+    border: 1px solid #192A51;
+  
+    background-color: cornflowerblue;
+  
+    color: whitesmoke;
+  
+    text-align: center;
+  
+    font-size: 0.9em;
+  
+    height: 50px;
+  
+    overflow: hidden;
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    transition: height 0.5s ease; 
+  }
+  .waveeasy:hover {
+    height: 700px;
+  }
+  
+  .easyimages {
+    transition: opacity 0.5 ease;
+  }
+  
+  #mediumlevel {
+    text-align: center;
+  }
+  .wavemedium{
+    border: 1px solid #192A51;
+  
+    background-color: cornflowerblue;
+  
+    color: whitesmoke;
+  
+    text-align: center;
+  
+    font-size: 0.9em;
+  
+    height: 50px;
+  
+    overflow: hidden;
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    transition: height 0.5s ease; 
+  }
+  .wavemedium:hover {
+    height: 700px;
+  }
+  .mediumimages {
+    transition: opacity 0.5 ease;
+  }
+  
+  
+  #hardlevel {
+    text-align: center;
+  }
+  .wavehard {
+    border: 1px solid #192A51;
+  
+    background-color: cornflowerblue;
+  
+    color: whitesmoke;
+  
+    text-align: center;
+  
+    font-size: 0.9em;
+  
+    height: 50px;
+  
+    overflow: hidden;
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    transition: height 0.5s ease; 
+  }
+  .wavehard:hover {
+    height: 700px;
+  }
+  .hardimages {
+    transition: opacity 0.5 ease;
+  }
+  
