@@ -1,16 +1,44 @@
 body{
-    text-align: center;
-background-color: lavenderblush;
+  text-align: center;
+  background-color: lavenderblush;
 }
 img{ 
-    border-color: pink;
-    align-items: center;
+  border-color: pink;
+  align-items: center;
 }
 h1{
-    color: pink;
-     border-style: solid; color: pink;
+  color: pink;
+  border-style: solid; color: pink;
 }
 .aboutme{
-    text-size: 15px;
-    text-emphasis-color:rgb(226, 132, 148) ;
+  text-size: 15px;
+  text-emphasis-color:rgb(226, 132, 148) ;
+}
+#portfolio {
+  text-align: center;
+  color: whitesmoke;
+}
+.waveinstruct {
+  border: 1px solid #192A51;
+
+  background-color: lightpink;
+
+  color: whitesmoke;
+
+  text-align: center;
+
+  font-size: 0.9em;
+
+  height: 50px;
+
+  overflow: hidden;
+
+  width: 80%;
+
+  margin: 10px auto;
+
+  transition: height 0.5s ease;
+}
+.waveinstruct:hover {
+  height: 230px;
 }
