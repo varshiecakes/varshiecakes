@@ -84,7 +84,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .avatar.png {
+  .imgprofile.jpg {
     width: 80px;  /* Adjust image size on mobile */
     height: 80px; /* Adjust image size on mobile */
   }
