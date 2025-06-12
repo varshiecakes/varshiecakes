@@ -1,44 +1,103 @@
-body{
+body {
+  background-color: #ffeaf4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #4a2c3a;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
   text-align: center;
-  background-color: lavenderblush;
+  background-color: #ffc4d6;
+  padding: 20px;
+  border-radius: 10px;
 }
-img{ 
-  border-color: pink;
-  align-items: center;
+
+h1 {
+  color: #d63384;
+  margin-bottom: 10px;
 }
-h1{
-  color: pink;
-  border-style: solid; color: pink;
+
+.profile-pic {
+  width: 100px;  /* Smaller image size */
+  height: 100px; /* Smaller image size */
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ff99bb;
+  margin-top: 15px;
 }
-.aboutme{
-  text-size: 15px;
-  text-emphasis-color:rgb(226, 132, 148) ;
+
+nav {
+  margin-top: 10px;
 }
-#portfolio {
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #5a0038;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #b3005e;
+}
+
+section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 192, 203, 0.3);
+}
+
+h2 {
+  color: #bf4080;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #b3005e;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
   text-align: center;
-  color: whitesmoke;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #ffeaf4;
+  font-weight: bold;
+  color: #b3005e;
 }
-.waveinstruct {
-  border: 1px solid #192A51;
 
-  background-color: lightpink;
+@media (max-width: 600px) {
+  .avatar.png {
+    width: 80px;  /* Adjust image size on mobile */
+    height: 80px; /* Adjust image size on mobile */
+  }
 
-  color: whitesmoke;
+  h1 {
+    font-size: 1.8em;
+  }
 
-  text-align: center;
+  section {
+    padding: 10px;
+  }
 
-  font-size: 0.9em;
-
-  height: 50px;
-
-  overflow: hidden;
-
-  width: 80%;
-
-  margin: 10px auto;
-
-  transition: height 0.5s ease;
-}
-.waveinstruct:hover {
-  height: 230px;
+  nav a {
+    margin: 5px;
+  }
 }
